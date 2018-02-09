@@ -1,0 +1,75 @@
+* {
+	transition: .25s all;
+	-webkit-transition: .25s all;
+	-moz-transition: .25s all;
+	-ma-transition: .25s all;
+	-o-transition: .25s all;
+}
+.testimonials-wrap {
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+	background: #000;
+	padding: 50px 0 30px 0;
+}
+.testimonials {
+	width: 55%;
+	margin: 0 auto;
+	clear: both;
+	overflow: hidden;
+}
+.test-width {
+	clear: both;
+	overflow: hidden;
+	width: 100%;
+}
+.test {
+	width: 100%;
+	float: left;
+	text-align: center;	
+}
+h4 {
+	color: #fff;
+	font: italic 700 20px/32px 'Open Sans', sans-serif;
+	padding: 0;
+}
+p {
+	color: #fff;
+	font: normal 300 16px/23px 'Open Sans', sans-serif;
+	padding: 0;	
+}
+.pagination {
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+	margin: 10px 0 30px 0;
+}
+ul, ul li {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	display: inline-block;
+	text-align: center;
+}
+a {
+	display: block;
+	width: 12px;
+	height: 12px;
+	font-size: 0;
+	background: #fff;
+	margin: 0 10px;
+	cursor: pointer;
+	-webkit-border-radius: 18px;
+	-moz-border-radius: 18px;
+	-ms-border-radius: 18px;
+	-o-border-radius: 18px;
+	border-radius: 18px;
+	-webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+	-moz-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+	-ms-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+	-o-box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+	box-shadow: 0 0 5px rgba(0, 0, 0, .3);
+}
+a.active {
+	background: #464646;	
+}
